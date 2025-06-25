@@ -16,7 +16,7 @@ export default function App() {
             <span>✓ A domicile</span>
           </div>
           <img
-            src="/src/assets/logo.JPG"
+            src="/assets/Logo.JPG"
             alt="Logo Turbo Wash"
             style={{ height: "150px" }}
             className="mx-auto"
@@ -45,7 +45,7 @@ export default function App() {
         <section className="p-8 bg-black text-white">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center md:space-x-8 text-center md:text-left">
             <img
-              src="/src/assets/logo.JPG"
+              src="/assets/Logo.JPG"
               alt="Logo Turbo Wash"
               className="w-40 h-auto mb-4 md:mb-0"
             />

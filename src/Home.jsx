@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <div className="relative h-64 md:h-96 lg:h-[500px] w-full">
                 <img
-                    src="/src/assets/M3 E92.png"
+                    src="/assets/M3 E92.png"
                     alt="Bannière"
                     className="w-full h-full object-cover object-center"
                 />
@@ -63,10 +63,10 @@ export default function Home() {
                 <h2 className="text-2xl font-semibold mb-6">Nos Réalisations</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {[
-                        "/src/assets/M2N.jpeg",
-                        "/src/assets/M2B.jpeg",
-                        "/src/assets/M4RS.jpeg",
-                        "/src/assets/M4.jpeg",
+                        "/assets/M2N.jpeg",
+                        "/assets/M2B.jpeg",
+                        "/assets/M4RS.jpeg",
+                        "/assets/M4.jpeg",
                     ].map((src, index) => (
                         <img
                             key={index}
